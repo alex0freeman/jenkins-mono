@@ -1,0 +1,7 @@
+jenkins:
+  build: .
+  ports:
+    - "8080:8080"
+  hostname: jenkins
+  extra_hosts:
+    - "appareo-repos:192.168.64.34"
